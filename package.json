@@ -1,0 +1,54 @@
+{
+  "name": "bob-exchange-rate",
+  "version": "1.2.7",
+  "description": "Official Bank of Botswana (Botswana) daily exchange rates — 7 currencies vs BWP, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "bob",
+    "bank",
+    "of",
+    "botswana",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "bwp",
+    "central-bank",
+    "official-rates",
+    "botswana",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/bob/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/bob-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/bob-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
