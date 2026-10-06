@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'BWP', { apiKey: 'art_live_...' });
 {
   bank: 'bob',
   name: 'Bank of Botswana',
-  rate_date: '2026-09-25',   // Bank of Botswana's own publication date
+  rate_date: '2026-10-06',   // Bank of Botswana's own publication date
   source: 'USD',
   target: 'BWP',
-  rate: 13.2979,
+  rate: 13.4409,
   rate_type: 'reference',
   derived: true,
   method: 'inverse',  // computed from the published BWP/USD print
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bob',
   name: 'Bank of Botswana',
-  rate_date: '2026-09-25',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "BWP", "quote": "USD", "type": "reference", "value": 0.0752 },
+    { "base": "BWP", "quote": "USD", "type": "reference", "value": 0.0744 },
     // … the rest of the published table (7 currencies vs BWP)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bob-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'BWP', from: '2026-01-01', to: '2026-09-25' },
+  { source: 'USD', target: 'BWP', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'BWP',
   from: '2026-01-01',
-  to: '2026-09-25',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-25', rate: 13.2979, rate_type: 'reference', derived: true, method: 'inverse' },
+    { date: '2026-10-06', rate: 13.4409, rate_type: 'reference', derived: true, method: 'inverse' },
     // …
   ],
   disclaimer: '…'
