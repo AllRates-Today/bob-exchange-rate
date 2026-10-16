@@ -42,17 +42,17 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Bank of Botswana — 7 rates. Updated 2026-10-15.
+Published **2026-10-16** by Bank of Botswana — 7 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| BWP | CNH | reference | 0.4989 |
-| BWP | EUR | reference | 0.0665 |
-| BWP | GBP | reference | 0.0563 |
-| BWP | JPY | reference | 11.77 |
-| BWP | USD | reference | 0.0745 |
-| BWP | XDR | reference | 0.0551 |
-| BWP | ZAR | reference | 1.2337 |
+| BWP | CNH | reference | 0.5001 |
+| BWP | EUR | reference | 0.0666 |
+| BWP | GBP | reference | 0.0562 |
+| BWP | JPY | reference | 11.8 |
+| BWP | USD | reference | 0.0748 |
+| BWP | XDR | reference | 0.0552 |
+| BWP | ZAR | reference | 1.2311 |
 
 Source: [Official rates published by BOB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bob/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
