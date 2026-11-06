@@ -32,17 +32,17 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-05 by Bank of Botswana — 7 rates. Updated 2026-11-05.</summary>
+<summary>Table as text: published 2026-11-06 by Bank of Botswana — 7 rates. Updated 2026-11-06.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| BWP | CNH | reference | 0.4998 |
+| BWP | CNH | reference | 0.4966 |
 | BWP | EUR | reference | 0.0666 |
-| BWP | GBP | reference | 0.0556 |
-| BWP | JPY | reference | 11.84 |
-| BWP | USD | reference | 0.075 |
-| BWP | XDR | reference | 0.0552 |
-| BWP | ZAR | reference | 1.2266 |
+| BWP | GBP | reference | 0.0555 |
+| BWP | JPY | reference | 11.77 |
+| BWP | USD | reference | 0.0745 |
+| BWP | XDR | reference | 0.055 |
+| BWP | ZAR | reference | 1.2313 |
 
 </details>
 
