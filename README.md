@@ -31,7 +31,22 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-_The table is filled in by the daily workflow._
+<details>
+<summary>Table as text: published 2026-11-13 by Bank of Botswana — 7 rates. Updated 2026-11-15.</summary>
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| BWP | CNH | reference | 0.4916 |
+| BWP | EUR | reference | 0.0666 |
+| BWP | GBP | reference | 0.0557 |
+| BWP | JPY | reference | 11.8 |
+| BWP | USD | reference | 0.0737 |
+| BWP | XDR | reference | 0.0547 |
+| BWP | ZAR | reference | 1.2364 |
+
+</details>
+
+Source: [Official rates published by BOB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bob/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
 
 ## 📦 Installation
